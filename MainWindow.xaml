@@ -1,0 +1,9 @@
+﻿<Window x:Class="Dependency_property.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local ="clr-namespace:Dependency_property.userControls"
+        Title="MainWindow" Height="200" Width="525">
+    <Grid>
+        <local:MyuserControl x:Name="txtAdv"  ButtonClick="TxtAdv_OnButtonClick" TextBoxText="Hello world! this is user-control" ButtonContent="Show" VerticalAlignment="Center" Margin="10,0" Height="30"/>
+    </Grid>
+</Window>
